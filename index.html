@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <title> My Website 4</title> 
-	<meta charset="utf-8" name="viewport" content="width=initial-width,initial-scale=1">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<style>@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Temperature Converter</title>
 </head>
 <body>
-	<div class="wrapper">
-		<header class="h">The Company</header>
-		<nav class="n">
-			<a href="Home.html">HOME</a>
-			<a href="About.html">ABOUT</a>
-			<a href="Contact.html">CONTACT</a>
-		</nav>
-		<article class="main">
-			<h1>Content Area</h1>
-			<img src="https://dummyimage.com/320x200/1815e8/fff&text=I">
-			<p>
-				Bane ra kane carmine riddler lantern phantom. Bane luthor cobblepot atom. Society clock rumor zeus freeze barbara diamond canary. Nyssa hatter charlatan gotham outsider azrael collector tumbler! Nigma chill kyle flash. Hood mask caird, poison master. Katana bartok moth arkham katana. Jason oswald mask alfred caird. Huntress blake oswald vicki shadow of, rose anarky.
-			</p>
+    <main>
+        <header>
+            <h1>Converter</h1>
+        </header>
 
-			<p>
-				Ventriloquist bennett mugsy collector cobblepot rose cain rumor nyssa abbott. Nigma rhino shiva cain dent night selina. Al nigma owl young aquaman atom bruce phantom czonk? Kyle ghul gotham justice. Harvey chase abbott fairchild deadshot croc copperhead maxie master clench bullock drake bat. Echo riddler nigma abbott two todd owl tim caird, selina cypher! Rumor joker cain the. Solomon sinestro catwoman hammer bat nigma luthor spectre bullock lantern abattoir anarky.
-			</p>
-			
-		</article>
-		<aside class="side"><h3>Newsletter and Blog</h3></aside>
-		<div class="ads">
-			<img src="https://dummyimage.com/200x100/1ae617/fff&text=ON+SALE">
-		</div>
-		<footer class="f">&copy; Copyrights 2023 .My Website</footer>
-	</div>
-	
+        <div class="temps">
+            <input type="number" name="c" id="c" class="t" placeholder="Celsius"><span><sup>o</sup>  <i class="fa-sharp fa-solid fa-c"></i></span>
+            <input type="number" name="f" id="f" class="t" placeholder="Fahrenheit"><span><sup>o</sup>  <i class="fa-sharp fa-solid fa-f"></i> </span>
+            <input type="number" name="k" id="k" class="t" placeholder="Kelvin"><span><i class="fa-sharp fa-solid fa-k"></i></span>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
 </body>
 </html>
 
